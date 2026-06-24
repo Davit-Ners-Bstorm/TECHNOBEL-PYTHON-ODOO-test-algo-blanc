@@ -18,7 +18,13 @@ resultat attendu : [0, 1]
 
 
 def two_sum(nums: list[int], target: int) -> list[int]:
-    pass
+    seen = {}
+
+    for ind, i in enumerate(nums):
+        need = target - i
+        if need in seen:
+            return [seen[need], ind]
+        seen[i] = ind
 
 
 def check(name: str, result: list[int], expected: list[int]) -> bool:

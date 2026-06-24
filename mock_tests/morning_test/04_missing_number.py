@@ -15,7 +15,11 @@ resultat attendu : 2
 
 
 def missing_number(nums: list[int]) -> int:
-    pass
+    n = len(nums)
+    expected_sum = n * (n + 1) // 2
+    actual_sum = sum(nums)
+
+    return expected_sum - actual_sum
 
 
 def check(name: str, result: int, expected: int) -> bool:
