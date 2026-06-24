@@ -21,7 +21,7 @@ resultat attendu : True
 
 
 def is_palindrome(s: str) -> bool:
-    pass
+     pass
 
 
 def check(name: str, result: bool, expected: bool) -> bool:

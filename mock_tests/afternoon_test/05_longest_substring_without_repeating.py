@@ -15,7 +15,19 @@ resultat attendu : 3
 
 
 def length_of_longest_substring(s: str) -> int:
-    pass
+    left = 0
+    seen = set()
+    longest = 0
+
+    for right in range(len(s)):
+        while s[right] in seen:
+            seen.remove(s[left])
+            left += 1
+
+        seen.add(s[right])
+        longest = max(longest, right - left + 1)
+
+    return longest
 
 
 def check(name: str, result: int, expected: int) -> bool:

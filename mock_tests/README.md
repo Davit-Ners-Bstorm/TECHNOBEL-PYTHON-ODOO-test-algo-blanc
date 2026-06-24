@@ -8,9 +8,26 @@ Chaque test est prevu pour durer **1h10**.
 
 - `morning_test`
 - `afternoon_test_2`
+- `medium_low_bonus`
 
 Pour `afternoon_test_2`, la duree recommandee est aussi de **1h10**.
 La difficulte est legerement plus elevee sur l'exercice 5.
+
+## Medium-low bonus
+
+La session `medium_low_bonus` est optionnelle.
+
+Duree recommandee : **1h10 a 1h30**.
+
+L'exercice 5, `3Sum Bonus`, est plus difficile et peut etre garde pour la fin.
+
+Ces exercices servent a entrainer des patterns plus avances :
+
+- Prefix/Suffix
+- HashMap + tri
+- Two Pointers
+- Prefix Sum + HashMap
+- Tri + Two Pointers
 
 ## Consignes
 
